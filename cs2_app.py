@@ -1,7 +1,5 @@
 import re
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 import nltk
 from bs4 import BeautifulSoup
