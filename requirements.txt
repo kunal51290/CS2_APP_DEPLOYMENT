@@ -46,7 +46,6 @@ jupyter-client==6.1.7
 jupyter-core==4.6.3
 jupyterlab==2.2.6
 jupyterlab-pygments==0.1.2
-lightgbm==3.3.1
 Markdown==3.3.6
 MarkupSafe==1.1.1
 mccabe==0.6.1
@@ -98,7 +97,6 @@ pyzmq==19.0.2
 requests==2.25.0
 requests-oauthlib==1.3.0
 scikit-learn==1.0.1
-scipy
 Send2Trash==1.5.0
 six==1.15.0
 smmap==5.0.0
@@ -122,5 +120,4 @@ watchdog==1.0.1
 wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
-xgboost==1.5.1
 zipp==3.4.0
