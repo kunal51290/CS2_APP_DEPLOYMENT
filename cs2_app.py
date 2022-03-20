@@ -3,6 +3,7 @@ import numpy as np
 import nltk
 from bs4 import BeautifulSoup
 from nltk.stem import WordNetLemmatizer,PorterStemmer
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import tensorflow as tf
 from tensorflow.keras.models import Model
