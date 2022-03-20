@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from nltk.stem import WordNetLemmatizer,PorterStemmer
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 import tensorflow as tf
 from tensorflow.keras.models import Model
