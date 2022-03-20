@@ -1,5 +1,4 @@
 import re
-import pandas as pd
 import numpy as np
 import nltk
 from bs4 import BeautifulSoup
@@ -9,7 +8,6 @@ import tensorflow as tf
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras import Model
 import warnings
 warnings.filterwarnings('ignore')
 import joblib
