@@ -25,7 +25,7 @@ st.image(image="https://landerapp.com/blog/wp-content/uploads/2018/08/twitter_co
 
 tweet = st.text_input(label="Enter the tweet you want to identify below:",value="", max_chars=None,placeholder="Enter your tweet here")
 
-import keras.backend as K
+import tensorflow.keras.backend as K
 class dot_attention(tf.keras.layers.Layer):
     def __init__(self,**kwargs):
         super(dot_attention,self).__init__(**kwargs)
